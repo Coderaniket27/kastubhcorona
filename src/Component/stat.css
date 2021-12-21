@@ -1,0 +1,59 @@
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+ 
+  
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 12px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+h1{
+    color: rgb(205, 206, 255);
+    text-align: center;
+}
+
+th:nth-child(even):hover{
+  background-color: green;
+  
+}
+th:nth-child(odd):hover{
+  background-color: red;
+  
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 997px) {
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 300px;
+    background-color: blue;
+    overflow: scroll;
+    
+  }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 200px;
+    overflow: scroll;
+    background-color: blueviolet;
+  }
+  }
+  
+  
